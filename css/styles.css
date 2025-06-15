@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,body,
+h6,p,a,ol,ul,li,div{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  box-shadow: none;
+}
+.box {
+  width: 400px;
+  height: 830px;
+  position: relative;
+  background: gray;
+  align-items: center;
+}
+.text{
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+}
+.square{
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    outline: 2px solid black;
+    transform: rotate(45deg);
+}
+.item{
+    display: flex;
+    column-gap: 15px;
+}
+.text{
+    font-size: 20px;
+}
+.link{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
