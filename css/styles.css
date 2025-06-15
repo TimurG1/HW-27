@@ -29,8 +29,6 @@ a {
 }
 .box:hover{
   transform: translateX(0);
-  transition-property: ;
-  transition-duration: ;
 }
 .box:hover .text{
   color: gray;
@@ -68,9 +66,7 @@ a {
 .item:last-child{
     display: flex;
     column-gap: 15px;
-    margin-top: ;
     margin-left: 80px;
-    margin-right: ;
 }
 .link{
     font-size: 20px;
