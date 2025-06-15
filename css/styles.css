@@ -17,21 +17,34 @@ ul {
 a {
   text-decoration: none;
 }
-button {
-  box-shadow: none;
-}
 .box {
   width: 400px;
   height: 830px;
   position: relative;
   background: gray;
   align-items: center;
+  transform: translateX(-75%);
+  transition-property: transform;
+  transition-duration: 1000ms;
+}
+.box:hover{
+  transform: translateX(0);
+  transition-property: ;
+  transition-duration: ;
+}
+.box:hover .text{
+  color: gray;
 }
 .text{
     text-transform: uppercase;
     color: white;
     position: absolute;
+    top: 377px;
+    left: 283px;
+    transform: rotate(90deg);
     font-size: 20px;
+    transition-property: color;
+    transition-duration: 500ms;
 }
 .square{
     width: 15px;
@@ -40,15 +53,32 @@ button {
     outline: 2px solid black;
     transform: rotate(45deg);
 }
+.item:first-child{
+  display: flex;
+  column-gap: 15px;
+  padding-top: 20%;
+  margin-left: 80px;
+}
 .item{
     display: flex;
     column-gap: 15px;
+    margin-bottom: 7%;
+    margin-left: 80px;
 }
-.text{
-    font-size: 20px;
+.item:last-child{
+    display: flex;
+    column-gap: 15px;
+    margin-top: ;
+    margin-left: 80px;
+    margin-right: ;
 }
 .link{
     font-size: 20px;
     color: white;
     text-transform: uppercase;
+    transition-property: color;
+    transition-duration: 500ms;
+}
+.link:hover{
+    color: orange;
 }
